@@ -1,21 +1,24 @@
 def create_an_empty_array
-  
+  return []
 end
 
 def create_an_array
-  
+  return [1,2,3,4]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array = []
+  return array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array = []
+  return array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  
+  array = []
+  return array.push(element)
 end
 
 def remove_element_from_start_of_array(array)
