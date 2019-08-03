@@ -28,17 +28,20 @@ end
 
 def retrieve_element_from_index(array, index_number)
   array = []
-  return array.shift(element)  
+  return array.at(index_number)  
 end
 
 def retrieve_first_element_from_array(array)
-  
+  array = []
+  return array.first
 end
 
 def retrieve_last_element_from_array(array)
-  
+  array = []
+  return array.last
 end
 
 def update_element_from_index(array, index_number, element)
-
+  array = []
+  return array.insert(index_number)
 end
